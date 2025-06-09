@@ -1,0 +1,201 @@
+/* Body and General Styles */
+body {
+  background-color: #fef3e7;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+  text-align: center;
+  font-style: italic;
+  background-color: #8c3f3f;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Basic Highlight and Text Elements */
+.background-color {
+  background-color: yellow;
+  font-style: italic;
+  font-weight: bold;
+  border-style: outset;
+}
+
+#note {
+  font-style: italic;
+  font-weight: bold;
+  text-shadow: 5px 5px 3px yellow;
+}
+
+#United {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  color: #2c2c2c;
+  line-height: 1.6;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.05);
+  background-color: #eef5ff;
+  max-width: 100%;
+}
+
+/* Subsection Margin */
+.sub {
+  margin-top: 10px;
+}
+
+/* Floating Image */
+.float-img {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+/* Content Blocks */
+#cat {
+  border: 2px solid #333;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #fefefe;
+  text-align: justify;
+  font-style: italic;
+}
+
+.div6 {
+  background-color: #8c3f3f;
+  text-align: left;
+}
+
+.curriculum {
+  background-color: #fefefe;
+  text-align: center;
+  border-style: inset;
+}
+
+.tomato img {
+  width: 100%;
+  max-width: 1300px;
+  height: 400px;
+  margin-top: 15px;
+  border-style: outset;
+  border-color: blue;
+}
+
+.div17 {
+  font-style: italic;
+  text-align: center;
+  border-style: dashed;
+  background-color: #8c3f3f;
+}
+
+#rocket {
+  color: grey;
+}
+
+#scholar {
+  font-family: 'Roboto', sans-serif;
+  background-color: skyblue;
+  padding: 20px;
+  font-size: 1.2em;
+  border: 2px solid #2acfcf;
+  font-weight: bold;
+}
+
+.operation {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  border-style: dashed;
+  background-color: #fef3e7;
+  margin-bottom: 3px;
+}
+
+/* Image Layouts */
+.cake img,
+.odd img {
+  float: left;
+  margin-right: 20px;
+  padding-top: 10px;
+  border-style: outset;
+  border-color: blue;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Additional Sections */
+#pakistan {
+  text-align: center;
+}
+
+#lion {
+  text-align: justify;
+  background-color: snow;
+  font-style: italic;
+  border: 1px solid;
+  padding: 20px;
+  font-size: 1.2em;
+  text-shadow: 5px 5px 11px grey;
+}
+
+.chess {
+  background-color: snow;
+  text-align: center;
+  font-style: italic;
+  border-style: dashed;
+  border-color: blue;
+}
+
+#magnus {
+  font-weight: bold;
+}
+
+.croco {
+  margin-top: 40px;
+  font-size: 1.3em;
+}
+
+#phone {
+  font-size: 1em;
+  font-style: italic;
+}
+
+#tech {
+  font-size: 20px;
+  width: 200px;
+  text-align: center;
+  background-color: #8c3f3f;
+  color: white;
+}
+
+#box {
+  background-color: snow;
+  border-style: inset;
+  font-weight: 500;
+  border-bottom-width: 8px;
+}
+
+/* Dropdown Reveal */
+.rat {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease;
+}
+
+.rat.Open {
+  max-height: 1000px;
+}
+
+/* Button or Badge */
+#why {
+  height: 30px;
+  background-color: blue;
+  color: white;
+  margin-left: 500px;
+}
+.div7{
+      background-color: yellow;
+      color: blue; 
+      font-style: italic; 
+      text-align: center;
+}
